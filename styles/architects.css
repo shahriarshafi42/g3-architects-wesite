@@ -199,6 +199,33 @@ max-width: 530px;
   margin-left: 40px;
   margin-right: 40px;
 }
+#expreience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top:-100px ;
+
+}
+#exprence-year{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.feature-architat{
+  width: 100%;
+}
+.all{
+  text-align: center;
+  background-color: #FFF4E7;
+  padding: 20px;
+  margin-top:50px ;
+  margin-bottom:50px ;
+  border: .5px solid lightsteelblue;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+
+}
 
     /* responsive quary */
   @media screen and (max-width:576px) {
@@ -224,7 +251,15 @@ max-width: 530px;
     .our-features{
       margin-left: 20px;
     }
-   }
+    .features{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    #expreience-badge{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+   
    /* meadim size devices */
    @media screen and (min-width:576px) and (max-width:992px) {
     .teams{
@@ -246,4 +281,5 @@ max-width: 530px;
 
     
    }
+  }
    
